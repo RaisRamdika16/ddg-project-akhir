@@ -210,7 +210,7 @@ body {
 }
 
 .bg-gradient {
-  background: linear-gradient(180deg, ghostwhite 0%, ghostwhite 50%, #518a89 100%);
+  background: linear-gradient(180deg, #f8f8ff 0%, ghostwhite 50%, #518a89 100%);
 
 }
 
@@ -238,6 +238,25 @@ body {
   align-items: center;
   justify-content: center;
   padding: 10px;
+  font-family: poppins, serif;
+  box-shadow: 0 6px 4px #518a89;
+  border-radius: 20px;
+  padding: 25px;
+  width: 900px;
+  border: none;
+}
+
+.btn-send {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: poppins, serif;
+  background-color: #294343;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 4px #518a89;
 }
 
 .footer {
