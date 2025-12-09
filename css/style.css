@@ -3,7 +3,11 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  
+}
+
+html{
+  scroll-behavior: smooth;
+
 }
 
 body {
@@ -135,7 +139,9 @@ body {
   justify-content: center;
   align-items: center;
   gap: 50px;
-  padding: 55px;
+  padding: 100px;
+  background-color: #73c8bf4c;
+
 }
 
 .photo-aplikasi {
@@ -147,17 +153,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 50px;
-  
-}
-.my-skill-photo {
-  width: 70px;
-  height: 70px;
-  border-radius: 10px;
-}
-
-.my-skill-photo:hover {
-  transform: scale(1.2);
-  transition: 0.3s;
+  font-size: 80px;
+  color: #294343;
 }
 
 .my-project {
@@ -209,6 +206,25 @@ body {
   color: black;
 }
 
+.btn-download {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  font-family: poppins, serif;
+  background-color: #294343;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0 6px 4px #518a89;
+}
+
+.btn-download:hover {
+  background-color: #518a89;
+  transition: 0.3s;
+}
+
 .bg-gradient {
   background: linear-gradient(180deg, #f8f8ff 0%, ghostwhite 50%, #518a89 100%);
 
@@ -244,19 +260,6 @@ body {
   padding: 25px;
   width: 900px;
   border: none;
-}
-
-.btn-send {
-  margin-top: 20px;
-  padding: 10px 20px;
-  font-size: 1rem;
-  font-family: poppins, serif;
-  background-color: #294343;
-  color: white;
-  border: none;
-  border-radius: 10px;
-  cursor: pointer;
-  box-shadow: 0 6px 4px #518a89;
 }
 
 .footer {
